@@ -2,7 +2,12 @@ body{
     background-color: #A8D5E3;
 }
 
-.button{
+
+.parent{
+    text-align: center;
+}
+
+.btn{
     text-align: center;
     background-color:  black;
     color: white;
@@ -12,9 +17,7 @@ body{
 
 }
 
-.parent{
-    text-align: center;
-}
+
 
 .box{
     background-color: #2C2E39;
