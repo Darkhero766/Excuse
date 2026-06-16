@@ -8,8 +8,10 @@ const excuses = [
     "The CEO unplugged the server.",
     "My girlfriend left me on seen thats why its hard too work rightnow.",
 
-]
+];
+
 
 button.addEventListener("click", function () {
     box.innerText = Math.floor(Math.random() * excuses.length);
-})
+});
+
