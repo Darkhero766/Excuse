@@ -6,10 +6,13 @@ body{
 
 .parent{
     text-align: center;
+    display:flex;
 }
 
 .btn{
     text-align: center;
+    color: black;
+    border-radius:10px;
     background-color:  black;
     cursor: pointer;
     font-size: 30px;
@@ -20,11 +23,7 @@ body{
 
 
 .box{
-    background-color: #2C2E39;
-    width: 50px; 
-    
-    border: 1px solid black;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    margin-top: 5px;
+    background-color: white;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }

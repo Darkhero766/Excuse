@@ -10,8 +10,10 @@ const excuses = [
 
 ];
 
+const randomIndex = Math.floor(Math.random() * excuses.length)
+
 
 button.addEventListener("click", function () {
-    box.innerText = Math.floor(Math.random() * excuses.length);
+    box.innerText = excuses[randomIndex];
 });
 
